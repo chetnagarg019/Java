@@ -10,12 +10,13 @@ class Transaction {
         this.type = type;
         this.category = category;
         this.amount = amount;
-        this.date = date;
+        this.date = date; 
     }
 
-    public String toString() {
+    public String toString() { 
         return type + " | " + category + " | " + amount + " | " + date;
     }
+   
 }
 
 class ExpenseTrackerLogic {
@@ -156,6 +157,7 @@ public class ExpenseTrackerGUI {
 
             frame.setLocationRelativeTo(null);
             frame.setVisible(true);
+            
         });
     }
     
