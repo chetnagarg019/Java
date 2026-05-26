@@ -83,7 +83,7 @@ public class ExpenseTrackerGUI {
 
             JTextField dateField = new JTextField();
             dateField.setBounds(200, 150, 150, 25);
-            frame.add(dateField);
+            frame.add(dateField); // datefield frame add
 
             // Buttons
             JButton addBtn = new JButton("Add Transaction");
