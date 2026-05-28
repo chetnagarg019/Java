@@ -22,8 +22,8 @@ class Transaction {
 class ExpenseTrackerLogic {
     ArrayList<Transaction> list = new ArrayList<>();
     void add(Transaction t) { list.add(t); }
-    ArrayList<Transaction> getList() { return list; }
-
+    ArrayList<Transaction> getList() { return list; } 
+ 
     double getIncome() {
         double income = 0;
         for (Transaction t : list)
