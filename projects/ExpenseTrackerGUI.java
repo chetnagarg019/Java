@@ -39,7 +39,7 @@ class ExpenseTrackerLogic {
     }
 }
  
-public class ExpenseTrackerGUI { 
+public class ExpenseTrackerGUI {  // expenxce tracker GUI
     public static void main(String[] args) {
         ExpenseTrackerLogic et = new ExpenseTrackerLogic();
 

@@ -11,7 +11,7 @@ public class Gui1 {
             JLabel label = new JLabel("Hello kids");
             label.setBounds(100,50,200,30);
 
-            JButton button = new JButton("Click me!");
+            JButton button = new JButton("Click me!"); // click me btn here 
             button.setBounds(80,30,120,20);
 
             button.addActionListener(new ActionListener() {
